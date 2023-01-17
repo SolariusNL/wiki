@@ -12,7 +12,7 @@ We hereby grant you a personal, non-transferable, non-exclusive license to use t
 ## Restrictions
 You may not reverse engineer, decompile, or disassemble the Software, except to the extent that such activity is expressly permitted by applicable law. You may not make copies of the Software, except for backup or archival purposes. You may not modify, adapt, or create derivative works based on the Software.
 
-Apheon is open source software. You may use the source code of the Software for any purpose, including commercial purposes, at no cost. You may modify the source code and distribute your modifications, in source code or object code form, provided that you comply with the terms and conditions outlined in our [custom client policy](/client/custom-client-policy).
+Apheon is open source software. You may use the source code of the Software for any purpose, including commercial purposes, at no cost. You may modify the source code and distribute your modifications, in source code or object code form, provided that you comply with the terms and conditions outlined in our [custom client policy](/docs/apheon/custom-clients).
 
 Do not use the Software in any way that violates any applicable law or regulation.
 

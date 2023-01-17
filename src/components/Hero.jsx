@@ -14,7 +14,9 @@ const codeLanguage = "javascript";
 const tabs = [
   {
     name: "data.ts",
-    code: `Datastores.getAsync<{
+    code: `// Our intuitive TypeScript API makes it easy 
+// to build games
+Datastores.getAsync<{
   name: string;
   age: number;
 }>("myStore", "user123").then((result) => {
@@ -63,9 +65,8 @@ export function Hero() {
                 Empowering the next generation of games
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Framework, fully open source and federated, helps you to build
-                the next best game. It's time to take your game to the next
-                level, and ditch proprietary corporate-ware for a better future.
+                Express your creativity and build without limits on Framework -
+                the ultimate alternative to proprietary platforms like Roblox.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="https://framework.soodam.rocks" target="_blank">
