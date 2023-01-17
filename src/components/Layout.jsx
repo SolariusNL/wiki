@@ -42,6 +42,7 @@ const navigation = [
     links: [
       { title: "Changing your email", href: "/docs/support/changing-email" },
       { title: "Changing your password", href: "/docs/support/changing-password" },
+      { title: "Referral program", href: "/docs/support/referral-program" },
     ],
   },
 ];
