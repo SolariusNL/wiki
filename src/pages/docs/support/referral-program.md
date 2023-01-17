@@ -6,9 +6,7 @@ description: The Framework Referral Program allows you to earn rewards for refer
 Our referral code system is a way for users to earn rewards by sharing their unique code with friends and family, and attract new users to our platform. Here are some important details to keep in mind when using the referral code system:
 
 ## Eligibility
-In order to enter another user's referral code, your account must be less than one month old. This is to prevent users from creating new accounts to enter referral codes.
-
-We know this is not a foolproof system, but we are evaluating other options to prevent abuse of the referral code system.
+In order to enter another user's referral code, your account must be less than one month old. This is to incentivize users to share their code with new people. If you are not eligible to enter a referral code, you will not see the option to do so.
 
 ## Code Redemption
 Each user can only enter one referral code. Once a code is entered, it cannot be changed or replaced.
