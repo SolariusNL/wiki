@@ -24,7 +24,7 @@ const navigation = [
     links: [
       { title: "Custom client policy", href: "/docs/apheon/custom-clients" },
       {
-        title: "End User License Agreement",
+        title: "End user license agreement",
         href: "/docs/apheon/eula",
       },
     ],
@@ -43,9 +43,18 @@ const navigation = [
       { title: "Changing your email", href: "/docs/support/changing-email" },
       { title: "Changing your password", href: "/docs/support/changing-password" },
       { title: "Referral program", href: "/docs/support/referral-program" },
-      { title: "DMCA takedown policy", href: "/docs/support/dmca-policy" },
     ],
   },
+  {
+    title: "Policies",
+    links: [
+      { title: "Privacy policy", href: "/docs/policies/privacy" },
+      { title: "Terms of service", href: "/docs/policies/terms" },
+      { title: "NFT policy", href: "/docs/policies/nfts" },
+      { title: "DMCA takedown policy", href: "/docs/policies/dmca-policy" },
+      { title: "Federation policy", href: "/docs/policies/federation-policy" },
+    ],
+  }
 ];
 
 function GitHubIcon(props) {
@@ -255,6 +264,7 @@ export function Layout({ children, title, tableOfContents }) {
                               ? "text-sky-500"
                               : "font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300"
                           )}
+                          prefetch={false}
                         >
                           {section.title}
                         </Link>
