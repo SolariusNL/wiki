@@ -3,7 +3,7 @@ stages:
 
 deploy-to-vercel:
   stage: deploy
-  image: node:14-alpine
+  image: node:18-alpine
 
   variables:
     PREVIEW_URL: $CI_PROJECT_NAME-$CI_COMMIT_REF_SLUG.$VERCEL_USER.vercel.app
@@ -19,6 +19,11 @@ deploy-to-vercel:
     url: https://$PREVIEW_URL
 
   script:
-    - npm i -g vercel
+    - yarn add vercel --dev
     - DEPLOYMENT_URL=$(VERCEL_ORG_ID=$VERCEL_ORG_ID VERCEL_PROJECT_ID=$VERCEL_PROJECT_ID vercel --confirm -t $VERCEL_TOKEN --scope $VERCEL_SCOPE)
     - vercel alias set $DEPLOYMENT_URL $PREVIEW_URL -t $VERCEL_TOKEN --scope $VERCEL_SCOPE
+
+cache:
+  key:
+    files:
+      - yarn.lock
