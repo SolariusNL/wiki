@@ -2,7 +2,7 @@ default:
   image: node:16.16.0
 
 before_script:
-  - yarn global add vercel
+  - npx yarn global add vercel
 
 deploy_production:
   stage: deploy
