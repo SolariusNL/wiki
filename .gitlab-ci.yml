@@ -2,13 +2,13 @@ default:
   image: node:16.16.0
 
 before_script:
-  - npx yarn global add vercel
+  - yarn global add vercel
 
 deploy_production:
   stage: deploy
   only:
     - master
   script:
-    - vercel pull --yes --environment=production --token=$VERCEL_TOKEN
-    - vercel build --prod --token=$VERCEL_TOKEN
-    - vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+    - npx vercel pull --yes --environment=production --token=$VERCEL_TOKEN
+    - npx vercel build --prod --token=$VERCEL_TOKEN
+    - npx vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
