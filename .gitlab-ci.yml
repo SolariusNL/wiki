@@ -1,31 +1,12 @@
-stages:
-  - deploy
+default:
+  image: node:16.16.0
 
-before_script:
-  - yarn global add vercel
-
-deploy-to-vercel:
+deploy_production:
   stage: deploy
-  image: node:18-alpine
-
-  variables:
-    PREVIEW_URL: $CI_PROJECT_NAME-$CI_COMMIT_REF_SLUG.$VERCEL_USER.vercel.app
-    VERCEL_ORG_ID: $VERCEL_ORG_ID
-    VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
-
-  rules:
-    - if: $CI_COMMIT_TAG
-    - if: $CI_COMMIT_BRANCH == 'master'
-
-  environment:
-    name: vercel/$CI_COMMIT_REF_NAME
-    url: https://$PREVIEW_URL
-
+  only:
+    - master
   script:
-    - DEPLOYMENT_URL=$(VERCEL_ORG_ID=$VERCEL_ORG_ID VERCEL_PROJECT_ID=$VERCEL_PROJECT_ID vercel --confirm -t $VERCEL_TOKEN --scope $VERCEL_SCOPE)
-    - vercel alias set $DEPLOYMENT_URL $PREVIEW_URL -t $VERCEL_TOKEN --scope $VERCEL_SCOPE
-
-cache:
-  paths:
-    - node_modules
-    - .yarn
+    - npm install --global vercel
+    - vercel pull --yes --environment=production --token=$VERCEL_TOKEN
+    - vercel build --prod --token=$VERCEL_TOKEN
+    - vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
