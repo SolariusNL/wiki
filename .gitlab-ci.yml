@@ -10,6 +10,9 @@ deploy-to-vercel:
     VERCEL_ORG_ID: $VERCEL_ORG_ID
     VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
 
+  before_script:
+    yarn global add vercel
+
   rules:
     - if: $CI_COMMIT_TAG
     - if: $CI_COMMIT_BRANCH == 'master'
@@ -19,7 +22,6 @@ deploy-to-vercel:
     url: https://$PREVIEW_URL
 
   script:
-    - yarn global add vercel
     - DEPLOYMENT_URL=$(VERCEL_ORG_ID=$VERCEL_ORG_ID VERCEL_PROJECT_ID=$VERCEL_PROJECT_ID vercel --confirm -t $VERCEL_TOKEN --scope $VERCEL_SCOPE)
     - vercel alias set $DEPLOYMENT_URL $PREVIEW_URL -t $VERCEL_TOKEN --scope $VERCEL_SCOPE
 
