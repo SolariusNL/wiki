@@ -1,5 +1,5 @@
 stages:
-  - deploy-to-vercel
+  - deploy
 
 deploy-to-vercel:
   stage: deploy
