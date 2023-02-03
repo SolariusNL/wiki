@@ -12,3 +12,6 @@ deploy_production:
     - npx vercel pull --yes --environment=production --token=$VERCEL_TOKEN
     - npx vercel build --prod --token=$VERCEL_TOKEN
     - npx vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+  environment:
+    name: production
+    url: https://wiki.soodam.rocks
