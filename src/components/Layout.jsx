@@ -45,6 +45,7 @@ const navigation = [
       { title: "Game updates", href: "/docs/features/game-updates" },
       { title: "Code snippets", href: "/docs/features/code-snippets" },
       { title: "Secrets", href: "/docs/features/secrets" },
+      { title: "Gamepasses", href: "/docs/features/gamepasses" },
     ],
   },
   {
