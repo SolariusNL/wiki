@@ -35,6 +35,7 @@ const navigation = [
       { title: "Introduction", href: "/docs/cosmic/introduction" },
       { title: "TypeScript", href: "/docs/cosmic/typescript" },
       { title: "Datastores", href: "/docs/cosmic/datastores" },
+      { title: "Secrets", href: "/docs/cosmic/secrets" },
     ],
   },
   {
