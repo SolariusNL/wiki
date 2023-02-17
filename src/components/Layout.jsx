@@ -1,10 +1,10 @@
-import { useCallback, useEffect, useState } from "react";
+import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import clsx from "clsx";
+import { useCallback, useEffect, useState } from "react";
 
 import { Hero } from "@/components/Hero";
-import { Logo, Logomark } from "@/components/Logo";
+import { Logo } from "@/components/Logo";
 import { MobileNavigation } from "@/components/MobileNavigation";
 import { Navigation } from "@/components/Navigation";
 import { Prose } from "@/components/Prose";
@@ -41,6 +41,7 @@ const navigation = [
   {
     title: "Features",
     links: [
+      { title: "Markdown editor", href: "/docs/features/markdown", beta: true },
       { title: "Chat", href: "/docs/features/chat", beta: true },
       { title: "Checklists", href: "/docs/features/checklists", beta: true },
       { title: "Game updates", href: "/docs/features/game-updates" },
