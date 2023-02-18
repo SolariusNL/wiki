@@ -16,6 +16,7 @@ const navigation = [
     title: "Introduction",
     links: [
       { title: "Getting started", href: "/" },
+      { title: "About Framework", href: "/docs/about" },
       { title: "Branding", href: "/docs/branding" },
     ],
   },
