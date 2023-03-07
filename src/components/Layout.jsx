@@ -70,6 +70,10 @@ const navigation = [
       { title: "NFT policy", href: "/docs/policies/nfts" },
       { title: "DMCA takedown policy", href: "/docs/policies/dmca-policy" },
       { title: "Federation policy", href: "/docs/policies/federation-policy" },
+      {
+        title: "SentinelV anticheat EULA",
+        href: "/docs/policies/sentinelv-eula",
+      },
     ],
   },
 ];
