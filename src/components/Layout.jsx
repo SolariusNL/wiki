@@ -123,10 +123,10 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
-          href="https://github.com/Tsodinq/framework"
+          href="https://invent.soodam.rocks/Soodam.re/framework"
           target="_blank"
           className="group"
-          aria-label="GitHub"
+          aria-label="GitLab"
         >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>

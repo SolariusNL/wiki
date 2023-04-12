@@ -25,13 +25,13 @@ You will need the following things installed on your computer:
 1. **Retrieve the source code from GitHub:**
 
 ```bash
-git clone https://github.com/Tsodinq/cosmic.git
+git clone https://invent.soodam.rocks/Soodam.re/cosmic.git
 ```
 
 This'll create a new directory called `cosmic` in your current directory. You can change this by adding a path to the end of the command, like so:
 
 ```bash
-git clone https://github.com/Tsodinq/cosmic.git my-project
+git clone https://invent.soodam.rocks/Soodam.re/cosmic.git my-project
 ```
 
 2. **Install the dependencies:**

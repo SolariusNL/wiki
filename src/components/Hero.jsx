@@ -75,11 +75,11 @@ export function Hero() {
                   Get started
                 </Button>
                 <Button
-                  href="https://github.com/Tsodinq/framework"
+                  href="https://invent.soodam.rocks/Soodam.re/framework"
                   variant="secondary"
                   target="_blank"
                 >
-                  View on GitHub
+                  View source
                 </Button>
               </div>
             </div>
