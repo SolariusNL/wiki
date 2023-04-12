@@ -1,13 +1,13 @@
-import { Fragment } from "react";
-import Image from "next/image";
 import clsx from "clsx";
+import Image from "next/image";
 import Highlight, { defaultProps } from "prism-react-renderer";
+import { Fragment } from "react";
 
-import { useState } from "react";
 import { Button } from "@/components/Button";
 import { HeroBackground } from "@/components/HeroBackground";
 import blurCyanImage from "@/images/blur-cyan.png";
 import blurIndigoImage from "@/images/blur-indigo.png";
+import { useState } from "react";
 
 const codeLanguage = "javascript";
 
@@ -16,7 +16,9 @@ const tabs = [
     name: "data.ts",
     code: `// Our intuitive TypeScript API makes it easy 
 // to build games
-Datastores.getAsync<{
+import { getAsync } from "@fw/datastores";
+
+getAsync<{
   name: string;
   age: number;
 }>("myStore", "user123").then((result) => {
@@ -24,11 +26,11 @@ Datastores.getAsync<{
 });`,
   },
   {
-    name: "game.ts",
-    code: `Game.on("playerConnected", async (
-  player: Types.Player
-) => {
-  console.log(player);
+    name: "commands.ts",
+    code: `import { registerCommand } from "@fw/cli";
+    
+registerCommand("hello", (args) => {
+  print("Hello, world!");
 });`,
   },
 ];
