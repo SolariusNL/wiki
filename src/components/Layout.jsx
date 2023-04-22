@@ -37,6 +37,9 @@ const navigation = [
       { title: "TypeScript", href: "/docs/cosmic/typescript" },
       { title: "Datastores", href: "/docs/cosmic/datastores" },
       { title: "Secrets", href: "/docs/cosmic/secrets" },
+      { title: "CLI", href: "/docs/cosmic/cli" },
+      { title: "Events", href: "/docs/cosmic/events" },
+      { title: "Player", href: "/docs/cosmic/player" },
     ],
   },
   {
@@ -49,6 +52,15 @@ const navigation = [
       { title: "Code snippets", href: "/docs/features/code-snippets" },
       { title: "Secrets", href: "/docs/features/secrets" },
       { title: "Gamepasses", href: "/docs/features/gamepasses" },
+    ],
+  },
+  {
+    title: "Self-hosting",
+    links: [
+      { title: "Setup", href: "/docs/self-hosting/setup" },
+      { title: "PM2", href: "/docs/self-hosting/pm2" },
+      { title: "Environment", href: "/docs/self-hosting/environment" },
+      { title: "Configuration", href: "/docs/self-hosting/configuration" },
     ],
   },
   {
@@ -228,7 +240,7 @@ export function Layout({ children, title, tableOfContents }) {
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
+                  <h1 className="font-display text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">
                     {title}
                   </h1>
                 )}
