@@ -24,8 +24,9 @@ const tags = {
       src: { type: String },
       alt: { type: String },
       caption: { type: String },
+      rounded: { type: Boolean, default: false },
     },
-    render: ({ src, alt = "", caption }) => (
+    render: ({ src, alt = "", caption, rounded }) => (
       <figure
         style={{
           display: "flex",
@@ -34,10 +35,17 @@ const tags = {
           justifyContent: "center",
           textAlign: "center",
           gap: "8px",
+          ...(rounded && { borderRadius: "8px" }),
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={src} alt={alt} />
+        <img
+          src={src}
+          alt={alt}
+          style={{
+            ...(rounded && { borderRadius: "8px" }),
+          }}
+        />
         <figcaption className="font-semibold">{caption}</figcaption>
       </figure>
     ),

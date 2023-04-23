@@ -52,6 +52,7 @@ const navigation = [
       { title: "Code snippets", href: "/docs/features/code-snippets" },
       { title: "Secrets", href: "/docs/features/secrets" },
       { title: "Gamepasses", href: "/docs/features/gamepasses" },
+      { title: "Domains", href: "/docs/features/domains" },
     ],
   },
   {
