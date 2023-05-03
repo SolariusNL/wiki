@@ -31,6 +31,15 @@ const navigation = [
     ],
   },
   {
+    title: "Apheon Errors",
+    links: [
+      {
+        title: "SYR-1001",
+        href: "/docs/apheon/error/1001",
+      },
+    ],
+  },
+  {
     title: "Cosmic",
     links: [
       { title: "Introduction", href: "/docs/cosmic/introduction" },
@@ -84,8 +93,8 @@ const navigation = [
       { title: "DMCA takedown policy", href: "/docs/policies/dmca-policy" },
       { title: "Federation policy", href: "/docs/policies/federation-policy" },
       {
-        title: "SentinelV anticheat EULA",
-        href: "/docs/policies/sentinelv-eula",
+        title: "Soyaru anticheat EULA",
+        href: "/docs/policies/soyaru-eula",
       },
     ],
   },
