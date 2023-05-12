@@ -62,7 +62,7 @@ export function Navigation({ navigation, className }) {
                 expandedSections.filter((title) => title !== section.title)
               )
             }
-            transitionTime={100}
+            transitionTime={250}
             easing="ease-in-out"
           >
             <ul
