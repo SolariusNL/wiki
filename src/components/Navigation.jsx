@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Collapsible from "react-collapsible";
 
 export function Navigation({ navigation, className }) {
@@ -15,6 +15,21 @@ export function Navigation({ navigation, className }) {
     acc[item.groupTitle].push(item);
     return acc;
   }, {});
+
+  useEffect(() => {
+    const currentSection = navigation.find((section) =>
+      section.links.some((link) => link.href === router.pathname)
+    );
+
+    if (currentSection) {
+      setExpandedSections((expandedSections) => [
+        ...expandedSections,
+        currentSection.groupTitle
+          ? `${currentSection.groupTitle}-${currentSection.title}`
+          : currentSection.title,
+      ]);
+    }
+  }, [router.pathname]);
 
   return (
     <nav className={clsx("text-base lg:text-sm", className)}>
