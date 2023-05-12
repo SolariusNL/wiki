@@ -85,13 +85,11 @@ export function Navigation({ navigation, className }) {
                       (link) => link.href === router.pathname
                     ) ||
                     !section.collapsible ||
-                    groupTitle
-                      ? expandedSections.includes(
-                          groupTitle
-                            ? `${groupTitle}-${section.title}`
-                            : section.title
-                        )
-                      : false
+                    expandedSections.includes(
+                      groupTitle
+                        ? `${groupTitle}-${section.title}`
+                        : section.title
+                    )
                   }
                   onOpening={() =>
                     setExpandedSections((expandedSections) => [
