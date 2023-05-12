@@ -22,7 +22,7 @@ const navigation = [
     collapsible: false,
   },
   {
-    title: "Apheon",
+    title: "Policies",
     links: [
       { title: "Custom client policy", href: "/docs/apheon/custom-clients" },
       {
@@ -31,9 +31,10 @@ const navigation = [
       },
     ],
     collapsible: true,
+    groupTitle: "Apheon",
   },
   {
-    title: "Apheon Errors",
+    title: "Errors",
     links: [
       {
         title: "SYR-1001",
@@ -41,12 +42,11 @@ const navigation = [
       },
     ],
     collapsible: true,
+    groupTitle: "Apheon",
   },
   {
-    title: "Cosmic",
+    title: "API",
     links: [
-      { title: "Introduction", href: "/docs/cosmic/introduction" },
-      { title: "TypeScript", href: "/docs/cosmic/typescript" },
       { title: "Datastores", href: "/docs/cosmic/datastores" },
       { title: "Secrets", href: "/docs/cosmic/secrets" },
       { title: "CLI", href: "/docs/cosmic/cli" },
@@ -54,6 +54,16 @@ const navigation = [
       { title: "Player", href: "/docs/cosmic/player" },
     ],
     collapsible: true,
+    groupTitle: "Cosmic",
+  },
+  {
+    title: "Guides",
+    links: [
+      { title: "Introduction", href: "/docs/cosmic/introduction" },
+      { title: "TypeScript", href: "/docs/cosmic/typescript" },
+    ],
+    collapsible: true,
+    groupTitle: "Cosmic",
   },
   {
     title: "Features",
@@ -68,6 +78,7 @@ const navigation = [
       { title: "Domains", href: "/docs/features/domains" },
     ],
     collapsible: true,
+    groupTitle: "Application",
   },
   {
     title: "Self-hosting",
@@ -78,6 +89,7 @@ const navigation = [
       { title: "Configuration", href: "/docs/self-hosting/configuration" },
     ],
     collapsible: true,
+    groupTitle: "Application",
   },
   {
     title: "Support",
@@ -90,6 +102,7 @@ const navigation = [
       { title: "Referral program", href: "/docs/support/referral-program" },
     ],
     collapsible: true,
+    groupTitle: "Application",
   },
   {
     title: "Policies",
