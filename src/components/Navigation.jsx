@@ -32,7 +32,11 @@ export function Navigation({ navigation, className }) {
             >
               {items.map((section) => (
                 <Collapsible
-                  key={section.title}
+                  key={
+                    groupTitle
+                      ? `${groupTitle}-${section.title}`
+                      : section.title
+                  }
                   trigger={
                     <li className="group flex items-center justify-between">
                       <h2
@@ -77,12 +81,20 @@ export function Navigation({ navigation, className }) {
                       (link) => link.href === router.pathname
                     ) ||
                     !section.collapsible ||
-                    expandedSections.includes(section.title)
+                    groupTitle
+                      ? expandedSections.includes(
+                          groupTitle
+                            ? `${groupTitle}-${section.title}`
+                            : section.title
+                        )
+                      : false
                   }
                   onOpening={() =>
                     setExpandedSections((expandedSections) => [
                       ...expandedSections,
-                      section.title,
+                      groupTitle
+                        ? `${groupTitle}-${section.title}`
+                        : section.title,
                     ])
                   }
                   onClosing={() =>
