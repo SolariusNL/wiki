@@ -59,7 +59,11 @@ export function Navigation({ navigation, className }) {
                           fill="currentColor"
                           className={clsx(
                             "h-5 w-5 text-slate-500",
-                            expandedSections.includes(section.title)
+                            expandedSections.includes(
+                              groupTitle
+                                ? `${groupTitle}-${section.title}`
+                                : section.title
+                            )
                               ? "rotate-90 transform transition-transform duration-200"
                               : "transform transition-transform duration-200",
                             section.links.some(
