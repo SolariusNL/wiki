@@ -19,6 +19,7 @@ const navigation = [
       { title: "About Framework", href: "/docs/about" },
       { title: "Branding", href: "/docs/branding" },
     ],
+    collapsible: false,
   },
   {
     title: "Apheon",
@@ -29,6 +30,7 @@ const navigation = [
         href: "/docs/apheon/eula",
       },
     ],
+    collapsible: true,
   },
   {
     title: "Apheon Errors",
@@ -38,6 +40,7 @@ const navigation = [
         href: "/docs/apheon/error/1001",
       },
     ],
+    collapsible: true,
   },
   {
     title: "Cosmic",
@@ -50,6 +53,7 @@ const navigation = [
       { title: "Events", href: "/docs/cosmic/events" },
       { title: "Player", href: "/docs/cosmic/player" },
     ],
+    collapsible: true,
   },
   {
     title: "Features",
@@ -63,6 +67,7 @@ const navigation = [
       { title: "Gamepasses", href: "/docs/features/gamepasses" },
       { title: "Domains", href: "/docs/features/domains" },
     ],
+    collapsible: true,
   },
   {
     title: "Self-hosting",
@@ -72,6 +77,7 @@ const navigation = [
       { title: "Environment", href: "/docs/self-hosting/environment" },
       { title: "Configuration", href: "/docs/self-hosting/configuration" },
     ],
+    collapsible: true,
   },
   {
     title: "Support",
@@ -83,6 +89,7 @@ const navigation = [
       },
       { title: "Referral program", href: "/docs/support/referral-program" },
     ],
+    collapsible: true,
   },
   {
     title: "Policies",
@@ -97,6 +104,7 @@ const navigation = [
         href: "/docs/policies/soyaru-eula",
       },
     ],
+    collapsible: true,
   },
 ];
 

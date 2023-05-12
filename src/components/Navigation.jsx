@@ -1,21 +1,73 @@
+import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import clsx from "clsx";
+import { useState } from "react";
+import Collapsible from "react-collapsible";
 
 export function Navigation({ navigation, className }) {
-  let router = useRouter();
+  const router = useRouter();
+  const [expandedSections, setExpandedSections] = useState([]);
 
   return (
     <nav className={clsx("text-base lg:text-sm", className)}>
-      <ul role="list" className="space-y-9">
+      <ul role="list" className="space-y-6">
         {navigation.map((section) => (
-          <li key={section.title}>
-            <h2 className="font-display font-medium text-slate-900 dark:text-white">
-              {section.title}
-            </h2>
+          <Collapsible
+            key={section.title}
+            trigger={
+              <li
+                className="flex items-center justify-between"
+                key={section.title}
+              >
+                <h2 className="font-display font-medium text-slate-900 dark:text-white">
+                  {section.title}
+                </h2>
+                {section.collapsible && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className={clsx(
+                      "h-5 w-5 text-slate-500",
+                      expandedSections.includes(section.title)
+                        ? "rotate-90 transform transition-transform duration-200"
+                        : "transform transition-transform duration-200",
+                      section.links.some(
+                        (link) => link.href === router.pathname
+                      ) && "text-sky-500"
+                    )}
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                )}
+              </li>
+            }
+            open={
+              section.links.some((link) => link.href === router.pathname) ||
+              !section.collapsible ||
+              expandedSections.includes(section.title)
+            }
+            onOpening={() =>
+              setExpandedSections((expandedSections) => [
+                ...expandedSections,
+                section.title,
+              ])
+            }
+            onClosing={() =>
+              setExpandedSections((expandedSections) =>
+                expandedSections.filter((title) => title !== section.title)
+              )
+            }
+            transitionTime={100}
+            easing="ease-in-out"
+          >
             <ul
               role="list"
-              className="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200"
+              className="mt-2 ml-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200"
             >
               {section.links.map((link) => (
                 <li key={link.href} className="relative">
@@ -38,7 +90,7 @@ export function Navigation({ navigation, className }) {
                 </li>
               ))}
             </ul>
-          </li>
+          </Collapsible>
         ))}
       </ul>
     </nav>
