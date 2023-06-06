@@ -50,6 +50,10 @@ Feature flags allow you to enable or disable certain features of your platform f
 - `NEXT_PUBLIC_FLAGS_PREVIEW` - The preview feature flag key for your HappyKit account.
 - `NEXT_PUBLIC_FLAGS_DEVELOPMENT` - The development feature flag key for your HappyKit account.
 
+{% callout title="Deprecation notice" type="warning" %}
+Framework is no longer dependent on external feature flag services. This feature will be removed in a future release. Please use the built-in feature flag system instead, no configuration is required.
+{% /callout %}
+
 ### Example
 
 ```env
