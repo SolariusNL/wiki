@@ -19,15 +19,15 @@ The dedicated chat page has been removed due to usability issues. We do not plan
 
 The chat system in Framework retains the last 75 messages per conversation. We plan to make this configurable in the future.
 
-# Conversations
+## Conversations
 
 We've recently added a new feature to Framework that allows users to create and manage conversations with other users. Before, users could only perform one-on-one conversations with other users. Now, users can create group conversations with multiple users.
 
-## Customization
+### Customization
 
 Users can customize their conversations by changing the conversation name and icon. This allows users to easily identify their conversations and makes it easier for them to manage their conversations.
 
-## Moderation
+### Moderation
 
 Owners of conversations can moderate their conversations by removing users from the conversation. This allows owners to remove users who are being disruptive or abusive.
 
