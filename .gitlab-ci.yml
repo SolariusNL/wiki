@@ -1,0 +1,31 @@
+default:
+  image: node:16.16.0
+
+stages:
+  - dast
+  - deploy
+
+include:
+  - template: DAST.gitlab-ci.yml
+
+dast:
+  stage: dast
+  dast_configuration:
+    site_profile: "Docs Prod"
+    scanner_profile: "Attack Simulation"
+
+
+before_script:
+  - yarn global add vercel
+
+deploy_production:
+  stage: deploy
+  only:
+    - master
+  script:
+    - npx vercel pull --yes --environment=production --token=$VERCEL_TOKEN
+    - npx vercel build --prod --token=$VERCEL_TOKEN
+    - npx vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+  environment:
+    name: production
+    url: https://wiki.soodam.rocks

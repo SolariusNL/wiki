@@ -11,8 +11,8 @@ API rate limits are enforced on datastores. If you exceed the rate limit, your r
 
 ## Rate Limits
 
-- `Datastores.setAsync` is limited to 150 requests per minute. This limit is shared across all datastores as requests are tied to the origin of the request.
-- `Datastores.getAsync` is limited to 150 requests per minute. This limit is shared across all datastores as requests are tied to the origin of the request.
+- `setAsync` is limited to 150 requests per minute. This limit is shared across all datastores as requests are tied to the origin of the request.
+- `getAsync` is limited to 150 requests per minute. This limit is shared across all datastores as requests are tied to the origin of the request.
 
 ---
 
@@ -31,6 +31,14 @@ To get started, create a datastore for your game on the Framework website:
 
 Once you've retrieved your datastores ID, we can get started with the code. Create a new script in your Cosmic project. We'll name ours `data.ts`.
 
+## Importing the Datastores API
+
+To use the Datastores API, you'll need to import it from the `@fw` package. You can do this by adding the following line to the top of your script:
+
+```ts
+import { getAsync, setAsync } from "@fw/datastores";
+```
+
 ## `Datastores.setAsync`
 
 ### Definition
@@ -46,9 +54,11 @@ The `setAsync` function allows you to store a value in a specified datastore ide
 To use the `setAsync` function, pass it a string `storeId` representing the ID of the datastore you want to manipulate, a string `key` that uniquely identifies the value within the datastore, and an `value` object representing the data you want to store. The function will return a promise that resolves to a boolean indicating whether the value was successfully set in the datastore.
 
 ```ts
+import { setAsync } from "@fw/datastores";
+
 // This will set user-123's coins to 500 and then
 // write to the console after it finishes.
-Datastores.setAsync("myStore", "user123", {
+setAsync("myStore", "user123", {
   name: "John",
   age: 30,
 }).then(() => {
@@ -86,7 +96,9 @@ The `getAsync` function retrieves a value from a specified datastore identified 
 To use the `getAsync` function, pass it a string `storeId` representing the ID of the datastore you want to retrieve a value from, and a string `key` representing the unique key used to identify the value within the datastore. The function will return a promise that resolves to an object containing the ID, key, value, and datastore ID of the retrieved value.
 
 ```ts
-Datastores.getAsync<{
+import { getAsync } from "@fw/datastores";
+
+getAsync<{
   name: string;
   age: number;
 }>("myStore", "user123").then((result) => {

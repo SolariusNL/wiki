@@ -21,18 +21,31 @@ Here is our set of logos and other assets. You can use these to promote your pro
 
 ### Logo
 
-![White Background](https://cloud.soodam.rocks/index.php/s/p5k6rZFzGKm3i6t/preview)
-![Transparent](https://cloud.soodam.rocks/index.php/s/nq5iT2z8AeTS8FN/preview)
-![Dark Background](https://cloud.soodam.rocks/index.php/s/HdJMkjfyxJ5LTPT/preview)
+{% grid %}
+
+{% figure src="https://cloud.soodam.rocks/index.php/s/p5k6rZFzGKm3i6t/preview" caption="White Background" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/p5k6rZFzGKm3i6t/preview" caption="Transparent" /%}
+
+{% /grid %}
+
+{% center %}
+
+{% figure src="https://cloud.soodam.rocks/index.php/s/HdJMkjfyxJ5LTPT/preview" caption="Black Background" /%}
+
+{% /center %}
 
 ### Logo with Text
 
-![Transparent](https://cloud.soodam.rocks/index.php/s/PF5p7XN8b6aqaBp/preview)
-![White Background](https://cloud.soodam.rocks/index.php/s/K8bpnatF3GR2fnK/preview)
-![Dark Background](https://cloud.soodam.rocks/index.php/s/DrQNtHiQNJB7gHt/preview)
-![Transparent with Soodam.re](https://cloud.soodam.rocks/index.php/s/KGfAxsHr4w7mS5i/preview)
-![Dark with Soodam.re](https://cloud.soodam.rocks/index.php/s/N8zoLBqCrTMJnwM/preview)
-![White with Soodam.re](https://cloud.soodam.rocks/index.php/s/EXXt8mrKwYGFj8n/preview)
+{% center %}
+
+{% figure src="https://cloud.soodam.rocks/index.php/s/PF5p7XN8b6aqaBp/download" caption="Transparent" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/K8bpnatF3GR2fnK/download" caption="White Background" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/DrQNtHiQNJB7gHt/download" caption="Dark Background" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/KGfAxsHr4w7mS5i/download" caption="Transparent with Soodam.re" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/N8zoLBqCrTMJnwM/download" caption="Dark with Soodam.re" /%}
+{% figure src="https://cloud.soodam.rocks/index.php/s/EXXt8mrKwYGFj8n/download" caption="White with Soodam.re" /%}
+
+{% /center %}
 
 ---
 

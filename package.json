@@ -1,6 +1,6 @@
 {
   "name": "framework-docs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,6 +24,7 @@
     "postcss-import": "^14.1.0",
     "prism-react-renderer": "^1.3.5",
     "react": "18.2.0",
+    "react-collapsible": "^2.10.0",
     "react-dom": "18.2.0",
     "tailwindcss": "^3.2.1"
   },

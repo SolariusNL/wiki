@@ -1,10 +1,10 @@
-import { useCallback, useEffect, useState } from "react";
+import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import clsx from "clsx";
+import { useCallback, useEffect, useState } from "react";
 
 import { Hero } from "@/components/Hero";
-import { Logo, Logomark } from "@/components/Logo";
+import { Logo } from "@/components/Logo";
 import { MobileNavigation } from "@/components/MobileNavigation";
 import { Navigation } from "@/components/Navigation";
 import { Prose } from "@/components/Prose";
@@ -16,11 +16,13 @@ const navigation = [
     title: "Introduction",
     links: [
       { title: "Getting started", href: "/" },
+      { title: "About Framework", href: "/docs/about" },
       { title: "Branding", href: "/docs/branding" },
     ],
+    collapsible: false,
   },
   {
-    title: "Apheon",
+    title: "Policies",
     links: [
       { title: "Custom client policy", href: "/docs/apheon/custom-clients" },
       {
@@ -28,22 +30,79 @@ const navigation = [
         href: "/docs/apheon/eula",
       },
     ],
+    collapsible: true,
+    groupTitle: "Apheon",
   },
   {
-    title: "Cosmic",
+    title: "Errors",
+    links: [
+      {
+        title: "SYR-1001",
+        href: "/docs/apheon/error/1001",
+      },
+    ],
+    collapsible: true,
+    groupTitle: "Apheon",
+  },
+  {
+    title: "API",
+    links: [
+      { title: "Datastores", href: "/docs/cosmic/datastores" },
+      { title: "Secrets", href: "/docs/cosmic/secrets" },
+      { title: "CLI", href: "/docs/cosmic/cli" },
+      { title: "Events", href: "/docs/cosmic/events" },
+      { title: "Player", href: "/docs/cosmic/player" },
+    ],
+    collapsible: true,
+    groupTitle: "Cosmic",
+  },
+  {
+    title: "Guides",
     links: [
       { title: "Introduction", href: "/docs/cosmic/introduction" },
       { title: "TypeScript", href: "/docs/cosmic/typescript" },
-      { title: "Datastores", href: "/docs/cosmic/datastores" },
     ],
+    collapsible: true,
+    groupTitle: "Cosmic",
+  },
+  {
+    title: "Features",
+    links: [
+      { title: "Markdown editor", href: "/docs/features/markdown", beta: true },
+      { title: "Chat", href: "/docs/features/chat", beta: true },
+      { title: "Checklists", href: "/docs/features/checklists", beta: true },
+      { title: "Game updates", href: "/docs/features/game-updates" },
+      { title: "Code snippets", href: "/docs/features/code-snippets" },
+      { title: "Secrets", href: "/docs/features/secrets" },
+      { title: "Gamepasses", href: "/docs/features/gamepasses" },
+      { title: "Domains", href: "/docs/features/domains" },
+    ],
+    collapsible: true,
+    groupTitle: "Application",
+  },
+  {
+    title: "Self-hosting",
+    links: [
+      { title: "Setup", href: "/docs/self-hosting/setup" },
+      { title: "PM2", href: "/docs/self-hosting/pm2" },
+      { title: "Environment", href: "/docs/self-hosting/environment" },
+      { title: "Configuration", href: "/docs/self-hosting/configuration" },
+    ],
+    collapsible: true,
+    groupTitle: "Application",
   },
   {
     title: "Support",
     links: [
       { title: "Changing your email", href: "/docs/support/changing-email" },
-      { title: "Changing your password", href: "/docs/support/changing-password" },
+      {
+        title: "Changing your password",
+        href: "/docs/support/changing-password",
+      },
       { title: "Referral program", href: "/docs/support/referral-program" },
     ],
+    collapsible: true,
+    groupTitle: "Application",
   },
   {
     title: "Policies",
@@ -53,8 +112,13 @@ const navigation = [
       { title: "NFT policy", href: "/docs/policies/nfts" },
       { title: "DMCA takedown policy", href: "/docs/policies/dmca-policy" },
       { title: "Federation policy", href: "/docs/policies/federation-policy" },
+      {
+        title: "Soyaru anticheat EULA",
+        href: "/docs/policies/soyaru-eula",
+      },
     ],
-  }
+    collapsible: true,
+  },
 ];
 
 function GitHubIcon(props) {
@@ -101,7 +165,12 @@ function Header({ navigation }) {
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/Tsodinq/framework" target="_blank" className="group" aria-label="GitHub">
+        <Link
+          href="https://invent.soodam.rocks/Soodam.re/framework"
+          target="_blank"
+          className="group"
+          aria-label="GitLab"
+        >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
@@ -202,7 +271,7 @@ export function Layout({ children, title, tableOfContents }) {
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
+                  <h1 className="font-display text-3xl font-semibold tracking-tight text-slate-900 dark:text-white">
                     {title}
                   </h1>
                 )}
