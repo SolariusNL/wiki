@@ -76,6 +76,7 @@ const navigation = [
       { title: "Secrets", href: "/docs/features/secrets" },
       { title: "Gamepasses", href: "/docs/features/gamepasses" },
       { title: "Domains", href: "/docs/features/domains" },
+      { title: "Servers", href: "/docs/features/servers" },
     ],
     collapsible: true,
     groupTitle: "Application",
