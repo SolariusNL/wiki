@@ -52,6 +52,7 @@ const navigation = [
       { title: "CLI", href: "/docs/cosmic/cli" },
       { title: "Events", href: "/docs/cosmic/events" },
       { title: "Player", href: "/docs/cosmic/player" },
+      { title: "Environment", href: "/docs/cosmic/env" },
     ],
     collapsible: true,
     groupTitle: "Cosmic",
@@ -61,6 +62,7 @@ const navigation = [
     links: [
       { title: "Introduction", href: "/docs/cosmic/introduction" },
       { title: "TypeScript", href: "/docs/cosmic/typescript" },
+      { title: "Import Conflicts", href: "/docs/cosmic/import-conflicts" },
     ],
     collapsible: true,
     groupTitle: "Cosmic",
