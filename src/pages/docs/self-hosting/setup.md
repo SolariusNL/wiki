@@ -70,7 +70,7 @@ The default admin username is "Framework". You'll need to use this username to l
 Run this command to install dependencies and initialize sub-projects.
 
 ```bash
-yarn run setup-project
+yarn run setup-projects
 ```
 
 ## Build and start Framework
