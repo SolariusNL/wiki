@@ -18,14 +18,14 @@ API rate limits are enforced on datastores. If you exceed the rate limit, your r
 
 To get started, create a datastore for your game on the Framework website:
 
-- Go to the [Invent](https://framework.soodam.rocks/invent) page
+- Go to the [Invent](https://framework.solarius.me/invent) page
 - Find the game you'd like to create a datastore for (and has a Cosmic server configured for)
 - Click on the triple-dots and click **Edit**
 - Go to the **Datastores** tab
 - Click **Create a new datastore** and fill out the necessary fields
 - Once your datastore is created, copy it's ID (shown below)
 
-![image|269x85, 100%](https://discourse.soodam.rocks/uploads/default/original/1X/d3f895e9a5da5ec4c115b9539ccf5ce09196c378.png)
+![image|269x85, 100%](https://discourse.solarius.me/uploads/default/original/1X/d3f895e9a5da5ec4c115b9539ccf5ce09196c378.png)
 
 ---
 

@@ -14,7 +14,6 @@ dast:
     site_profile: "Docs Prod"
     scanner_profile: "Attack Simulation"
 
-
 before_script:
   - yarn global add vercel
 
@@ -28,4 +27,4 @@ deploy_production:
     - npx vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
   environment:
     name: production
-    url: https://wiki.soodam.rocks
+    url: https://wiki.solarius.me

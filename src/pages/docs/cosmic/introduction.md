@@ -25,13 +25,13 @@ You will need the following things installed on your computer:
 1. **Retrieve the source code from GitHub:**
 
 ```bash
-git clone https://invent.soodam.rocks/Soodam.re/cosmic.git
+git clone https://invent.solarius.me/Soodam.re/cosmic.git
 ```
 
 This'll create a new directory called `cosmic` in your current directory. You can change this by adding a path to the end of the command, like so:
 
 ```bash
-git clone https://invent.soodam.rocks/Soodam.re/cosmic.git my-project
+git clone https://invent.solarius.me/Soodam.re/cosmic.git my-project
 ```
 
 2. **Install the dependencies:**
@@ -43,9 +43,9 @@ yarn install # you will need to install yarn using npm if you don't have it alre
 
 3. **Configure the server:**
 
-You'll need a Nucleus API key to enable the server to communicate with the Nucleus API. To get a key, you will need to create a Connection on Framework. You can do this [here](https://framework.soodam.rocks/game/2/edit?view=servers).
+You'll need a Nucleus API key to enable the server to communicate with the Nucleus API. To get a key, you will need to create a Connection on Framework. You can do this [here](https://framework.solarius.me/game/2/edit?view=servers).
 
-Once you've created a connection, head to **Invent -> Nucleus** and copy the corresponding API key for the connection you created ([quick link](https://framework.soodam.rocks/invent?view=nucleus)).
+Once you've created a connection, head to **Invent -> Nucleus** and copy the corresponding API key for the connection you created ([quick link](https://framework.solarius.me/invent?view=nucleus)).
 
 Now, create a file called `.env` in the root of the project and add the following line to it:
 
@@ -70,7 +70,7 @@ yarn start
 
 If everything went well, you should see this output:
 
-[![terminal after running yarn start](https://cloud.soodam.rocks/index.php/s/TLJrJTJKiGXF6Km/download/Screenshot_20221130_192900.png)](https://cloud.soodam.rocks/index.php/s/TLJrJTJKiGXF6Km/download/Screenshot_20221130_192900.png)
+[![terminal after running yarn start](https://cloud.solarius.me/index.php/s/TLJrJTJKiGXF6Km/download/Screenshot_20221130_192900.png)](https://cloud.solarius.me/index.php/s/TLJrJTJKiGXF6Km/download/Screenshot_20221130_192900.png)
 
 Good job! You've successfully set up Cosmic. You should see your server listed as `Online` on your games server list.
 

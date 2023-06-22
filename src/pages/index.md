@@ -38,4 +38,4 @@ Framework provides many features that are not available on Roblox, such as:
 
 ## Contributing
 
-Framework is fully open-source, and we welcome contributions from the community. If you'd like to contribute, head over to our [GitLab repository](https://invent.soodam.rocks/Soodam.re/framework) and submit a pull request. We'll review it and get back to you as soon as possible.
+Framework is fully open-source, and we welcome contributions from the community. If you'd like to contribute, head over to our [GitLab repository](https://invent.solarius.me/Soodam.re/framework) and submit a pull request. We'll review it and get back to you as soon as possible.

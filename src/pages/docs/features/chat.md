@@ -7,7 +7,9 @@ The Websocket-based Chat Feature in Framework is a real-time communication featu
 
 ## Chat Flyout
 
-The chat flyout is a new feature that is currently as a release-candidate that can be enabled through use of the preview program. It provides a quick and convenient way for players to access the chat system from anywhere on the platform.
+The chat flyout is a new feature in Framework that allows users to quickly access the chat system from anywhere on the site. The chat flyout is accessible by clicking the Chat in the bottom right corner of the site. Once opened, the chat flyout displays a list of all ongoing conversations and allows users to start new ones.
+
+You can toggle the chat flyout in the [application settings](https://framework.soodam.rocks/settings/application). You can also change the color of your chat bubbles in the application settings.
 
 ## Dedicated Chat Page
 

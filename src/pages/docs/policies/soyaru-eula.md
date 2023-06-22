@@ -7,7 +7,7 @@ PLEASE READ THIS END USER LICENSE AGREEMENT ("EULA") CAREFULLY BEFORE USING SOYA
 
 ## License Grant
 
-Subject to the terms and conditions of this EULA, Soodam.re B.V. ("Soodam.re") grants you a limited, non-exclusive, non-transferable license to install and use Soyaru Anticheat solely in conjunction with your use of the Framework game.
+Subject to the terms and conditions of this EULA, Solarius B.V. ("Solarius") grants you a limited, non-exclusive, non-transferable license to install and use Soyaru Anticheat solely in conjunction with your use of the Framework game.
 
 ## Restrictions
 
@@ -15,15 +15,15 @@ You may not copy, modify, distribute, sell, transfer, sublicense, or reverse eng
 
 ## Ownership
 
-Soyaru Anticheat is owned by Soodam.re and is protected by copyright laws and international treaty provisions. Soodam.re retains all rights, title, and interest in Soyaru Anticheat, including all intellectual property rights embodied therein.
+Soyaru Anticheat is owned by Solarius and is protected by copyright laws and international treaty provisions. Solarius retains all rights, title, and interest in Soyaru Anticheat, including all intellectual property rights embodied therein.
 
 ## Disclaimer of Warranty
 
-SOYARU ANTICHEAT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. SOODAM.RE DOES NOT WARRANT THAT SOYARU ANTICHEAT WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF SOYARU ANTICHEAT WILL BE UNINTERRUPTED OR ERROR-FREE.
+SOYARU ANTICHEAT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Solarius DOES NOT WARRANT THAT SOYARU ANTICHEAT WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF SOYARU ANTICHEAT WILL BE UNINTERRUPTED OR ERROR-FREE.
 
 ## Limitation of Liability
 
-IN NO EVENT SHALL SOODAM.RE BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, LOSS OF USE, OR COSTS OF OBTAINING SUBSTITUTE GOODS OR SERVICES) ARISING OUT OF THE USE OF OR INABILITY TO USE SOYARU ANTICHEAT, EVEN IF SOODAM.RE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+IN NO EVENT SHALL Solarius BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES (INCLUDING DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, LOSS OF USE, OR COSTS OF OBTAINING SUBSTITUTE GOODS OR SERVICES) ARISING OUT OF THE USE OF OR INABILITY TO USE SOYARU ANTICHEAT, EVEN IF Solarius HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 ## Termination
 
@@ -35,7 +35,7 @@ This EULA shall be governed by and construed in accordance with the laws of the 
 
 ## Operations
 
-Soyaru runs in the [Ring-3](https://www.wikiwand.com/en/Protection_ring) security context on your computer. It is not a virus, malware, or spyware, nor does it transmit any personal information to Soodam.re or any third party. It operates within full compliance of our Privacy Policies.
+Soyaru runs in the [Ring-3](https://www.wikiwand.com/en/Protection_ring) security context on your computer. It is not a virus, malware, or spyware, nor does it transmit any personal information to Solarius or any third party. It operates within full compliance of our Privacy Policies.
 
 Soyaru, to serve its purpose of detecting and preventing cheating, must have access to certain system resources. These resources include, but are not limited to:
 
@@ -44,7 +44,7 @@ Soyaru, to serve its purpose of detecting and preventing cheating, must have acc
 - Scan system drivers and DLLs (or shared objects on Linux) to detect potential hacks or exploits.
 - Analyze network traffic to detect potential cheating attempts and identify suspicious patterns of activity.
 - Record player behavior data for review and analysis by authorized personnel.
-- Log and report instances of suspected cheating to Soodam.re or relevant authorities.
+- Log and report instances of suspected cheating to Solarius or relevant authorities.
 - Collect system information for troubleshooting and diagnostic purposes.
 - Maintain and update the anticheat software to ensure it can effectively detect and prevent cheating in the game.
 
@@ -56,7 +56,7 @@ We do not collect any personally identifiable information, such as your name, ad
 
 ## Entire Agreement
 
-This EULA constitutes the entire agreement between you and Soodam.re with respect to the subject matter hereof and supersedes all prior or contemporaneous communications and proposals, whether oral or written, between you and Soodam.re.
+This EULA constitutes the entire agreement between you and Solarius with respect to the subject matter hereof and supersedes all prior or contemporaneous communications and proposals, whether oral or written, between you and Solarius.
 
 By using Soyaru Anticheat, you acknowledge that you have read this EULA, understand it, and agree to be bound by its terms and conditions.
 
@@ -66,8 +66,8 @@ Soyaru is automatically installed with the Framework client. You can also find t
 
 | Operating System | Path \* \*\*                                                               |
 | :--------------- | :------------------------------------------------------------------------- |
-| Windows          | `C:\Program Files\Soodam.re\Framework\base\client\svav\eula.rtf`           |
-| Linux            | `/opt/Soodam.re/Framework/base/client/svav/eula.rtf`                       |
+| Windows          | `C:\Program Files\Solarius\Framework\base\client\svav\eula.rtf`            |
+| Linux            | `/opt/Solarius/Framework/base/client/svav/eula.rtf`                        |
 | macOS            | `/Applications/Framework.app/Contents/Resources/base/client/svav/eula.rtf` |
 
 **\*** Typical installation directory. May vary depending on your operating system, architecture, and installation method.  

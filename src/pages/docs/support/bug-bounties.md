@@ -9,10 +9,10 @@ Here’s how it works:
 
 ## Report a bug
 
-- **Security vulnerabilities** If you discover a security vulnerability in Framework, please reach out to us immediately at `security@soodam.rocks`. This will allow us to address the issue quickly and prevent any potential harm.
+- **Security vulnerabilities** If you discover a security vulnerability in Framework, please reach out to us immediately at `security@solarius.me`. This will allow us to address the issue quickly and prevent any potential harm.
 - **Ordinary bugs** For ordinary bugs (spelling/grammar issues, UX issues), you can report them in one of the following ways:
-  - File an issue at our [GitLab instance](https://invent.soodam.rocks/Soodam.re/framework)
-  - Contact us through our [support form](https://framework.soodam.rocks/support)
+  - File an issue at our [GitLab instance](https://invent.solarius.me/Soodam.re/framework)
+  - Contact us through our [support form](https://framework.solarius.me/support)
   - Reach out to a staff member on Discord
 
 ## Review and validation

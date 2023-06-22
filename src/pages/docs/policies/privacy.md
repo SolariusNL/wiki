@@ -3,12 +3,12 @@ title: Privacy Policy
 description: How does Framework protect your privacy?
 ---
 
-This privacy policy describes how Framework ("framework.soodam.rocks", "we", "us", "Soodam.re") collects,
+This privacy policy describes how Framework ("framework.solarius.me", "we", "us", "Solarius") collects,
 protects and uses the personally identifiable information you may provide through the
-framework.soodam.rocks website or its API. The policy also describes the choices available to you
+framework.solarius.me website or its API. The policy also describes the choices available to you
 regarding our use of your personal information and how you can access and update this information. This policy
-does not apply to the practices of companies that Soodam.re does not own or control, or to
-individuals that Soodam.re does not employ or manage.
+does not apply to the practices of companies that Solarius does not own or control, or to
+individuals that Solarius does not employ or manage.
 
 ## What info do we collect?
 
@@ -79,7 +79,7 @@ We use cookies to understand and save your preferences for future visits.
 | `mantine-color-scheme` | Stores your color scheme preference.                        | Domestic |
 | `happykit-visitor`     | Randomly generated identifier used for feature flags.       | Foreign  |
 
-- Domestic cookies are set by `*.soodam.rocks` domains while foreign cookies are set by other domains.
+- Domestic cookies are set by `*.solarius.me` domains while foreign cookies are set by other domains.
 
 ## Do we disclose any information to outside parties?
 
@@ -97,7 +97,7 @@ remains private to the extent that you have chosen.
 
 This site is not intended for use by children under the age of 13. We do not knowingly collect
 personally identifiable information from children under 13. If a parent or guardian believes that
-framework.soodam.rocks has in its database the personally-identifiable information of a child under
+framework.solarius.me has in its database the personally-identifiable information of a child under
 the age of 13, please contact us immediately (using the contact information below) and we will use
 our best efforts to promptly remove such information from our records.
 
@@ -109,4 +109,4 @@ in your account or by placing a prominent notice on our site.
 
 ## Contacting us
 
-If you have questions regarding this privacy policy, you may contact us at our [support page](https://framework.soodam.rocks/support).
+If you have questions regarding this privacy policy, you may contact us at our [support page](https://framework.solarius.me/support).
