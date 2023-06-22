@@ -2,18 +2,8 @@ default:
   image: node:16.16.0
 
 stages:
-  - dast
   - deploy
-
-include:
-  - template: DAST.gitlab-ci.yml
-
-dast:
-  stage: dast
-  dast_configuration:
-    site_profile: "Docs Prod"
-    scanner_profile: "Attack Simulation"
-
+  
 before_script:
   - yarn global add vercel
 
