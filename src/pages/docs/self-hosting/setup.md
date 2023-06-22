@@ -11,7 +11,7 @@ Setting up your Framework instance is fairly straightforward. This guide will wa
 - **Yarn package manager** - Yarn is a package manager for Node.js that allows you to install and manage dependencies for your Framework instance.
 - **PostgreSQL database** - PostgreSQL is a relational database management system that Framework uses to store data. You'll need to set up a PostgreSQL database and obtain the connection details before you can set up your Framework instance.
 
-## Clone the Repository
+## Clone the repository
 
 Clone the Framework repository from our [GitLab](https://invent.solarius.me) instance:
 
@@ -19,7 +19,7 @@ Clone the Framework repository from our [GitLab](https://invent.solarius.me) ins
 git clone https://invent.solarius.me/Soodam.re/framework.git
 ```
 
-## Install Dependencies
+## Install dependencies
 
 Navigate into the cloned directory and install the dependencies by running the following command:
 
@@ -28,7 +28,7 @@ cd framework/
 yarn
 ```
 
-## Configure Environment Variables
+## Configure environment variables
 
 The Framework platform uses environment variables for configuration. Rename the `.env.example` file to `.env` and edit it to suit your needs. The most important environment variable to configure is the `DATABASE_URL`, which should contain the connection details for your PostgreSQL database.
 
@@ -40,7 +40,7 @@ DATABASE_URL=postgresql://user:password@localhost:5432/database
 For more information on configuring environment variables, see the [Environment](/docs/self-hosting/environment) page.
 {% /callout %}
 
-## Set Up the Database
+## Set up the database
 
 - Run the following command to set up a PostgreSQL database and apply the migrations:
 
@@ -53,7 +53,7 @@ For more information on configuring environment variables, see the [Environment]
   yarn run seed
   ```
 
-## Set Up an Admin Account
+## Set up an admin account
 
 Run the following command to set an admin password:
 
@@ -65,7 +65,15 @@ yarn run ctl --set-pwd your_admin_password
 The default admin username is "Framework". You'll need to use this username to log in to Framework.
 {% /callout %}
 
-## Build and Start Framework
+## Set up sub-projects
+
+Run this command to install dependencies and initialize sub-projects.
+
+```bash
+yarn run setup-projects
+```
+
+## Build and start Framework
 
 - Build the platform by running the following command:
 
