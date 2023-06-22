@@ -11,7 +11,7 @@ API rate limits are not enforced on secrets.
 
 To get started, create a new secret on Framework.
 
-- Go to the [Invent](https://framework.soodam.rocks/invent) page
+- Go to the [Invent](https://framework.solarius.me/invent) page
 - Go to the **Secrets** tab
 - Click on **Create a secret** and fill out the necessary fields
 - Once your secret is created, click on the `</>` icon to the right of the secret to copy the code snippet

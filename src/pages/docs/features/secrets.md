@@ -7,7 +7,7 @@ Secrets in Framework are private "global" environment variables that can be used
 
 ## Storing Secrets
 
-Developers can store secrets in Framework by creating a new secret by visiting [Invent](https://framework.soodam.rocks/invent) **-> Secrets**, clicking "Create a secret" and assigning it a name and value. The value of a secret is encrypted and kept private, making it a secure way to store sensitive information.
+Developers can store secrets in Framework by creating a new secret by visiting [Invent](https://framework.solarius.me/invent) **-> Secrets**, clicking "Create a secret" and assigning it a name and value. The value of a secret is encrypted and kept private, making it a secure way to store sensitive information.
 
 ## Using Secrets in Code
 

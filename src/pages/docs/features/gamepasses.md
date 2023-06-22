@@ -36,9 +36,9 @@ Gamepasses that contain inappropriate content are not permitted. This includes, 
 - Racist, sexist, or otherwise discriminatory content
 - Content that promotes violence or hatred
 - Content that promotes illegal activities
-- ...and other terms listed in our [Community Guidelines](https://framework.soodam.rocks/guidelines)
+- ...and other terms listed in our [Community Guidelines](https://framework.solarius.me/guidelines)
 
-Please note that the above list is not exhaustive, and that Soodam.re staff may remove any gamepass that they deem to be inappropriate. If you are unsure whether your gamepass is appropriate for the platform, please contact us, we'd be happy to help.
+Please note that the above list is not exhaustive, and that Solarius staff may remove any gamepass that they deem to be inappropriate. If you are unsure whether your gamepass is appropriate for the platform, please contact us, we'd be happy to help.
 
 ### False Gamepasses
 

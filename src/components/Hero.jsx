@@ -71,11 +71,11 @@ export function Hero() {
                 the ultimate alternative to proprietary platforms like Roblox.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="https://framework.soodam.rocks" target="_blank">
+                <Button href="https://framework.solarius.me" target="_blank">
                   Get started
                 </Button>
                 <Button
-                  href="https://invent.soodam.rocks/Soodam.re/framework"
+                  href="https://invent.solarius.me/Soodam.re/framework"
                   variant="secondary"
                   target="_blank"
                 >

@@ -7,11 +7,11 @@ The domains feature enables developers to add custom domains to their profile to
 
 ## Adding a Domain
 
-Visit the **[Domains](https://framework.soodam.rocks/developer/domains)** page in the **Developer Dashboard** to get started. On the sidebar, click the **New domain** button to start adding a new domain.
+Visit the **[Domains](https://framework.solarius.me/developer/domains)** page in the **Developer Dashboard** to get started. On the sidebar, click the **New domain** button to start adding a new domain.
 
 {% center %}
 
-{% figure src="https://cloud.soodam.rocks/index.php/s/gygjXdqn4QPXbaX/download" caption="Interface for adding a new domain" rounded="true" /%}
+{% figure src="https://cloud.solarius.me/index.php/s/gygjXdqn4QPXbaX/download" caption="Interface for adding a new domain" rounded="true" /%}
 
 {% /center %}
 
@@ -33,17 +33,17 @@ Domains are verified using TXT records in the DNS configuration of the domain. Y
 
 {% center %}
 
-{% figure src="https://cloud.soodam.rocks/index.php/s/wcyCc3MQ7tPfSAa/download" caption="Interface for verifying a domain" rounded="true" /%}
+{% figure src="https://cloud.solarius.me/index.php/s/wcyCc3MQ7tPfSAa/download" caption="Interface for verifying a domain" rounded="true" /%}
 
 {% /center %}
 
 ## 🎉 Congratulations!
 
-You've successfully registered and verified a domain on Framework. If you need further assistance, please [contact us](https://framework.soodam.rocks/support) and we'll be happy to help you out, or you can [join our Discourse community](https://discourse.soodam.rocks/) to ask questions and get help from other developers.
+You've successfully registered and verified a domain on Framework. If you need further assistance, please [contact us](https://framework.solarius.me/support) and we'll be happy to help you out, or you can [join our Discourse community](https://discourse.solarius.me/) to ask questions and get help from other developers.
 
 {% center %}
 
-{% figure src="https://cloud.soodam.rocks/index.php/s/cAcjM9rowjWJt5o/download" caption="Domain details after verification" rounded="true" /%}
+{% figure src="https://cloud.solarius.me/index.php/s/cAcjM9rowjWJt5o/download" caption="Domain details after verification" rounded="true" /%}
 
 {% /center %}
 

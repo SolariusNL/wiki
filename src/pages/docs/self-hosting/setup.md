@@ -13,10 +13,10 @@ Setting up your Framework instance is fairly straightforward. This guide will wa
 
 ## Clone the repository
 
-Clone the Framework repository from our [GitLab](https://invent.soodam.rocks) instance:
+Clone the Framework repository from our [GitLab](https://invent.solarius.me) instance:
 
 ```bash
-git clone https://invent.soodam.rocks/Soodam.re/framework.git
+git clone https://invent.solarius.me/Soodam.re/framework.git
 ```
 
 ## Install dependencies

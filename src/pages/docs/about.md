@@ -39,7 +39,7 @@ Framework is targeted at game developers who want more control over their conten
 
 ## Philosophy
 
-At Soodam.re, we believe that gaming & game development should be open, collaborative, and decentralized. We believe that creativity and innovation thrive when they are free from the constraints of corporate control and censorship. We believe that game development is not just about creating games, but also about fostering a community of developers who can collaborate, share ideas, and learn from each other.
+At Solarius, we believe that gaming & game development should be open, collaborative, and decentralized. We believe that creativity and innovation thrive when they are free from the constraints of corporate control and censorship. We believe that game development is not just about creating games, but also about fostering a community of developers who can collaborate, share ideas, and learn from each other.
 
 We also believe in the power of technology to bring people together and to empower them to create and share their ideas with the world. We believe that by using decentralized and federated technologies, we can create a platform that is more secure, more private, and more resilient than traditional centralized platforms.
 
@@ -69,7 +69,7 @@ We do not sell user data to advertisers or other third parties. We believe that 
 
 All of the code that we use to build our platform is open source, which means that anyone can review the code and ensure that it does not contain any malicious or privacy-invasive code. This helps to build trust with our users, and ensures that our platform is as secure and private as possible.
 
-Privacy is a top priority for us at Soodam.re. We believe that user data should be treated with the utmost care and respect, and we have taken steps to ensure that our platform is as secure and private as possible. By using decentralized and federated technologies, encrypting user data, and not displaying ads, we are able to offer users a more private and secure gaming experience.
+Privacy is a top priority for us at Solarius. We believe that user data should be treated with the utmost care and respect, and we have taken steps to ensure that our platform is as secure and private as possible. By using decentralized and federated technologies, encrypting user data, and not displaying ads, we are able to offer users a more private and secure gaming experience.
 
 ## Licensing
 
@@ -116,4 +116,4 @@ In summary, the power of community is a fundamental aspect of our platform. Our 
 
 ## Conclusion
 
-At Soodam.re, we believe that online experiences should be built on a foundation of open source technology, privacy, security, and community. Our platform is designed to provide users and developers with the tools and resources they need to create engaging and innovative online experiences, while also ensuring that their data and privacy are protected. By fostering a strong and supportive community around our platform, we are empowering users and developers to take ownership of their online experiences, and creating a more democratic and equitable online environment. We believe that the power of technology should be in the hands of the people, and we are committed to making this a reality through our open source, decentralized, and federated platform.
+At Solarius, we believe that online experiences should be built on a foundation of open source technology, privacy, security, and community. Our platform is designed to provide users and developers with the tools and resources they need to create engaging and innovative online experiences, while also ensuring that their data and privacy are protected. By fostering a strong and supportive community around our platform, we are empowering users and developers to take ownership of their online experiences, and creating a more democratic and equitable online environment. We believe that the power of technology should be in the hands of the people, and we are committed to making this a reality through our open source, decentralized, and federated platform.

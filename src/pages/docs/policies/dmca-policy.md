@@ -7,7 +7,7 @@ Our platform respects the intellectual property rights of others and expects its
 
 ## Public Disclosure of DMCA Requests
 
-We take transparency and openness very seriously, and as such, we will publicly disclose all DMCA requests that we receive. This includes the name of the copyright holder, the infringing material, and the action that we have taken in response to the request. 
+We take transparency and openness very seriously, and as such, we will publicly disclose all DMCA requests that we receive. This includes the name of the copyright holder, the infringing material, and the action that we have taken in response to the request.
 
 This disclosure serves to inform the public about the nature and frequency of DMCA requests that we receive, and allows interested parties to see the specific details of each request. It also serves as a deterrent for those who may consider submitting false or fraudulent requests.
 
@@ -42,8 +42,8 @@ We will promptly terminate without notice any user who is determined to be a rep
 The designated copyright agent(s) to receive notification of claimed infringement is:
 | Name | Email | Jurisdiction |
 | --- | --- | --- |
-| Cheon-Sa Park | seeun@soodam.rocks | European Union, Other Countries |
-| Emil Osmicevic | emil@soodam.rocks | United States, Canada, Other Countries |
+| Cheon-Sa Park | seeun@solarius.me | European Union, Other Countries |
+| Emil Osmicevic | emil@solarius.me | United States, Canada, Other Countries |
 
 ## Consequences of False or Misleading Information
 
@@ -53,4 +53,4 @@ Additionally, providing false or misleading information may also be considered a
 
 ## Contact
 
-If you have any questions about this DMCA Takedown Policy, please contact us at [support@soodam.rocks](mailto:support@soodam.rocks) or file a ticket at our [support page](https://framework.soodam.rocks/support).
+If you have any questions about this DMCA Takedown Policy, please contact us at [support@solarius.me](mailto:support@solarius.me) or file a ticket at our [support page](https://framework.solarius.me/support).

@@ -169,7 +169,7 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
-          href="https://invent.soodam.rocks/Soodam.re/framework"
+          href="https://invent.solarius.me/Soodam.re/framework"
           target="_blank"
           className="group"
           aria-label="GitLab"

@@ -7,11 +7,11 @@ The code snippets feature enables developers to store and reuse short segments o
 
 ## Snippet Saving
 
-Visit **[Invent](https://framework.soodam.rocks/invent) -> Code Snippets** to view all the code snippets that you have saved, and save new code snippets by clicking the "Create Code Snippet" button.
+Visit **[Invent](https://framework.solarius.me/invent) -> Code Snippets** to view all the code snippets that you have saved, and save new code snippets by clicking the "Create Code Snippet" button.
 
 ## Browse Snippets
 
-Visit the code snippet [discovery page](https://framework.soodam.rocks/snippets) to browse through all the code snippets that have been shared by other developers. You can also search for specific code snippets by using the search bar.
+Visit the code snippet [discovery page](https://framework.solarius.me/snippets) to browse through all the code snippets that have been shared by other developers. You can also search for specific code snippets by using the search bar.
 
 All results will allow previewing the code snippet & downloading the code snippet.
 
