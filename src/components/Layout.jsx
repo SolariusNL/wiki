@@ -34,6 +34,12 @@ const navigation = [
     groupTitle: "Apheon",
   },
   {
+    title: "Introduction",
+    links: [{ title: "About Vortex", href: "/docs/vortex/about" }],
+    collapsible: true,
+    groupTitle: "Vortex",
+  },
+  {
     title: "Errors",
     links: [
       {
