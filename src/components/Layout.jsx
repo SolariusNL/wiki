@@ -101,17 +101,37 @@ const navigation = [
     groupTitle: "Application",
   },
   {
-    title: "Support",
+    title: "Guides",
     links: [
       { title: "Changing your email", href: "/docs/support/changing-email" },
       {
         title: "Changing your password",
         href: "/docs/support/changing-password",
       },
-      { title: "Referral program", href: "/docs/support/referral-program" },
+      {
+        title: "TOTP issues",
+        href: "/docs/support/totp-issues",
+      },
+      {
+        title: "I forgot my password",
+        href: "/docs/support/forgot-password",
+      },
+      {
+        title: "Proof of ownership",
+        href: "/docs/support/proof-of-ownership",
+      },
     ],
     collapsible: true,
-    groupTitle: "Application",
+    groupTitle: "Support",
+  },
+  {
+    title: "Features",
+    links: [
+      { title: "Referral program", href: "/docs/support/referral-program" },
+      { title: "Bug bounties", href: "/docs/support/bug-bounties" },
+    ],
+    collapsible: true,
+    groupTitle: "Support",
   },
   {
     title: "Policies",
