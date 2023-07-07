@@ -40,6 +40,17 @@ const navigation = [
     groupTitle: "Vortex",
   },
   {
+    title: "Advanced",
+    links: [
+      {
+        title: "Physics configuration",
+        href: "/docs/vortex/advanced-config/physics",
+      },
+    ],
+    collapsible: true,
+    groupTitle: "Vortex",
+  },
+  {
     title: "Errors",
     links: [
       {
