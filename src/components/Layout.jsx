@@ -75,6 +75,14 @@ const navigation = [
     groupTitle: "Cosmic",
   },
   {
+    title: "Examples",
+    links: [
+      { title: "Gamepass handling", href: "/docs/cosmic/examples/gamepasses" },
+    ],
+    collapsible: true,
+    groupTitle: "Cosmic",
+  },
+  {
     title: "Guides",
     links: [
       { title: "Introduction", href: "/docs/cosmic/introduction" },
