@@ -139,6 +139,10 @@ const navigation = [
         title: "Proof of ownership",
         href: "/docs/support/proof-of-ownership",
       },
+      {
+        title: "Chargebacks",
+        href: "/docs/support/chargeback",
+      },
     ],
     collapsible: true,
     groupTitle: "Support",
