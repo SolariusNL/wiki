@@ -51,6 +51,17 @@ const navigation = [
     groupTitle: "Vortex",
   },
   {
+    title: "Studio",
+    links: [
+      {
+        title: "Shared source",
+        href: "/docs/vortex/shared-studio",
+      },
+    ],
+    collapsible: true,
+    groupTitle: "Vortex",
+  },
+  {
     title: "Errors",
     links: [
       {
