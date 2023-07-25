@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://wiki.solarius.me/</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/about</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/branding</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/privacy</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/terms</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/nfts</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/dmca-policy</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/federation-policy</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/policies/soyaru-eula</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/apheon/custom-clients</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/apheon/eula</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/apheon/error/1001</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/vortex/about</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/vortex/advanced-config/physics</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/vortex/shared-studio</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/datastores</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/secrets</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/cli</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/events</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/player</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/env</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/examples/gamepasses</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/introduction</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/typescript</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/cosmic/import-conflicts</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/markdown</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/chat</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/checklists</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/game-updates</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/code-snippets</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/secrets</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/gamepasses</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/domains</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/features/servers</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/self-hosting/setup</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/self-hosting/pm2</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/self-hosting/environment</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/self-hosting/configuration</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/changing-email</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/changing-password</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/totp-issues</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/forgot-password</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/proof-of-ownership</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/chargeback</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/referral-program</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wiki.solarius.me/docs/support/bug-bounties</loc>
+  <lastmod>2023-07-25T21:40:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

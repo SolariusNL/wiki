@@ -30,7 +30,38 @@ To avoid potential issues, it is strongly recommended to place `Builder` in an e
 About 2.0 GB of disk space is required to download all necessary files and components. Additionally, at least 16 GB of RAM and 8 CPU cores are recommended for the build step - it may take hours to complete even on a powerful machine. Framework Studio is a large and complex application.
 
 Once your build cache is populated, subsequent builds will be much faster.
+
+The produced `dist` folder is about 20.0 GB in size. You will need at least 40.0 GB of free disk space to build Framework Studio.
 {% /callout %}
+
+- You'll be asked to confirm the download of proprietary components.
+  - Proprietary components such as NVIDIA PhysX and FMOD Studio are required for Framework Studio to function properly. Please see the [Proprietary components](#proprietary-components) section for more information.
+  - In order to access proprietary components, your device must have hardware-based DRM and Secure Boot support. If these technologies are not present, Infra will be unable to legally provide you with proprietary components.
+- You'll be warned about the potential for system freezes during the build step.
+  - This is normal and expected behavior. The build step is very resource-intensive.
+- Once the build is complete, a `dist` folder will be produced in the same directory as `Builder.exe`.
+  - This folder contains the fully compiled Framework Studio application, ready for use. Run `Framework.Studio.Self.exe` to launch it.
+  - You will be asked to log in to a [Framework](https://framework.solarius.me) or [Infra](https://infra.solarius.me) account to authenticate the application.
+
+{% center %}
+
+{% figure src="https://cloud.solarius.me/index.php/s/dxWN2BndFTNGtcL/download" rounded="true" caption="Inside the `dist` folder" /%}
+
+{% /center %}
+
+## Supported platforms
+
+Framework Studio is currently supported on:
+
+| Platform | Architecture           | Minimum version |
+| -------- | ---------------------- | --------------- |
+| Linux    | x86_64                 | 5.4             |
+| Windows  | x86_64                 | 8.1             |
+| Windows  | ARM64                  | 8.1             |
+| macOS    | x86_64                 | 10.14           |
+| macOS    | Apple Silicon (M1, M2) | 11.0            |
+
+Framework will attempt to run in compatibility mode on unsupported platforms, but is not guaranteed to function properly.
 
 ## Solarius Infra
 
