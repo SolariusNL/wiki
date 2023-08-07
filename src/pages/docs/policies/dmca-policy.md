@@ -40,10 +40,10 @@ We will promptly terminate without notice any user who is determined to be a rep
 ## Designated Copyright Agent
 
 The designated copyright agent(s) to receive notification of claimed infringement is:
-| Name | Email | Jurisdiction |
-| --- | --- | --- |
-| Cheon-Sa Park | seeun@solarius.me | European Union, Other Countries |
-| Emil Osmicevic | emil@solarius.me | United States, Canada, Other Countries |
+| Name | Email |
+| --- | --- |
+| Sedin | sedin@solarius.me |
+| Emil | emil@solarius.me |
 
 ## Consequences of False or Misleading Information
 
