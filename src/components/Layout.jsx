@@ -33,6 +33,7 @@ const navigation = [
     collapsible: true,
     groupTitle: "Apheon",
   },
+
   {
     title: "Introduction",
     links: [{ title: "About Vortex", href: "/docs/vortex/about" }],
@@ -71,6 +72,12 @@ const navigation = [
     ],
     collapsible: true,
     groupTitle: "Apheon",
+  },
+  {
+    title: "Introduction",
+    links: [{ title: "About Cosmic 2.0", href: "/docs/cosmic/2/about" }],
+    collapsible: true,
+    groupTitle: "Cosmic 2.0",
   },
   {
     title: "API",
