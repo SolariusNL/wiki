@@ -45,7 +45,7 @@ The produced `dist` folder is about 20.0 GB in size. You will need at least 40.0
 
 {% center %}
 
-{% figure src="https://cloud.solarius.me/index.php/s/dxWN2BndFTNGtcL/download" rounded="true" caption="Inside the `dist` folder" /%}
+{% figure src="/inside-dist.png" rounded="true" caption="Inside the `dist` folder" /%}
 
 {% /center %}
 

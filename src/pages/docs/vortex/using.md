@@ -7,13 +7,13 @@ Vortex is a cutting-edge 3D and 2D game engine specifically designed for Framewo
 
 ## Getting started
 
-To get started with Vortex, you must install [Framework](https://dl.solarius.me/app/solarius/framework/installer/latest) and [Framework Studio 2023](https://dl.solarius.me/app/solarius/framework-studio/installer/latest). Once you have installed these tools, you can launch **Framework Studio 2023** and start building games with Vortex.
+To get started with Vortex, you must install [Framework](https://dl.solarius.me/app/solarius/framework/installer/latest) and [Framework Studio 2024](https://dl.solarius.me/app/solarius/framework-studio/installer/latest). Once you have installed these tools, you can launch **Framework Studio 2024** and start building games with Vortex.
 
 ## Creating a new game
 
 {% center %}
 
-{% figure src="https://cloud.solarius.me/index.php/s/aSHPR3aA25swydb/preview" alt="Create a new game" caption="Interface for creating a new game" rounded="true" /%}
+{% figure src="/creating-game.png" alt="Create a new game" caption="Interface for creating a new game" rounded="true" /%}
 
 {% /center %}
 
@@ -29,7 +29,7 @@ Framework Studio is a complex, feature-rich and extremely powerful tool. As such
 
 {% center %}
 
-{% figure src="https://cloud.solarius.me/index.php/s/g4FgdGxDkcMbdk7/preview" alt="Sidebar" caption="Sidebar interface" rounded="true" /%}
+{% figure src="/sidebar.png" alt="Sidebar" caption="Sidebar interface" rounded="true" /%}
 
 {% /center %}
 
@@ -58,7 +58,7 @@ From top to bottom, the sidebar consists of the following components:
 
 {% center %}
 
-{% figure src="https://cloud.solarius.me/index.php/s/bsAirm6LDSTriMR/preview" alt="Bottom bar" caption="Bottom bar interface" rounded="true" /%}
+{% figure src="/bottombar.png" alt="Bottom bar" caption="Bottom bar interface" rounded="true" /%}
 
 {% /center %}
 

@@ -48,18 +48,6 @@ An interface representing a player in your game.
 
 ---
 
-## `Socket`
-
-An interface representing a socket connection.
-
-### Properties
-
-- `emit` (function): A function that sends an event with data to the client.
-- `on` (function): A function that registers a callback to be called when an event is received from the client.
-- `disconnect` (function): A function that disconnects the socket.
-
----
-
 ## `IPlayerEx`
 
 An interface extending the `IPlayer` interface to include additional properties.

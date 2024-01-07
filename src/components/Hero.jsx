@@ -14,23 +14,52 @@ const codeLanguage = "javascript";
 const tabs = [
   {
     name: "data.ts",
-    code: `// Our intuitive TypeScript API makes it easy 
-// to build games
-import { getAsync } from "@fw/datastores";
+    code: `"use client";
 
-getAsync<{
-  name: string;
-  age: number;
-}>("myStore", "user123").then((result) => {
-  console.log(result);
-});`,
+import { LocalStorageBuilder } from "@fw/localstorage";
+
+const storage = new LocalStorageBuilder()
+  .addTable(
+    "saves",
+    ...
+  )
+  .build();
+
+storage.tables.saves.insert({
+  name: "My Save",
+  date: new Date(),
+  level: 1,
+});
+
+export default storage;`,
   },
   {
-    name: "commands.ts",
-    code: `import { registerCommand } from "@fw/cli";
-    
-registerCommand("hello", (args) => {
-  print("Hello, world!");
+    name: "fireworks.ts",
+    code: `"use server";
+
+import { Vector3 } from "@vortex/math";
+import { Firework, FireworkParticle } from "@/objects/firework";
+import { Particle } from "@fw/particle";
+
+const launchHeight = 15;
+
+game.on("playerJoin", (plr) => {
+  for (let i = 0; i < 10; i++) {
+    const fw = new Firework();
+    fw.position = new Vector3(0, launchHeight, 0);
+    fw.velocity = Vector3.random().mul(5);
+    fw.spawn();
+    fw.fuseMs = 5000;
+
+    fw.on("explode", () => {
+      for (let j = 0; j < 100; j++) {
+        const p = new Particle(FireworkParticle);
+        p.position = fw.position;
+        p.velocity = Vector3.random().mul(5);
+        p.spawn();
+      }
+    });
+  }
 });`,
   },
 ];
@@ -75,7 +104,7 @@ export function Hero() {
                   Get started
                 </Button>
                 <Button
-                  href="https://invent.solarius.me/Soodam.re/framework"
+                  href="https://github.com/SolariusNL/framework"
                   variant="secondary"
                   target="_blank"
                 >

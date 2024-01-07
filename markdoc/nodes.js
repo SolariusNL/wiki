@@ -1,5 +1,5 @@
-import { Fence } from '@/components/Fence'
-import { nodes as defaultNodes } from '@markdoc/markdoc'
+import { Fence } from "@/components/Fence";
+import { nodes as defaultNodes } from "@markdoc/markdoc";
 
 const nodes = {
   document: {
@@ -11,7 +11,7 @@ const nodes = {
       ...defaultNodes.th.attributes,
       scope: {
         type: String,
-        default: 'col',
+        default: "col",
       },
     },
   },
@@ -23,6 +23,6 @@ const nodes = {
       },
     },
   },
-}
+};
 
-export default nodes
+export default nodes;

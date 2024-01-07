@@ -1,4 +1,5 @@
-import { Head, Html, Main, NextScript } from 'next/document'
+import clsx from "clsx";
+import { Head, Html, Main, NextScript } from "next/document";
 
 const themeScript = `
   let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)')
@@ -36,7 +37,7 @@ const themeScript = `
   }).observe(document.documentElement, { attributeFilter: ['data-theme'], attributeOldValue: true })
 
   isDarkMode.addEventListener('change', () => updateThemeWithoutTransitions())
-`
+`;
 
 export default function Document() {
   return (
@@ -44,10 +45,15 @@ export default function Document() {
       <Head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </Head>
-      <body className="bg-white dark:bg-slate-900">
+      <body
+        className={clsx(
+          "bg-white dark:bg-slate-900",
+          "scrollbar-thin scrollbar-thumb-slate-300 scrollbar-thumb-rounded-md dark:scrollbar-track-slate-900 dark:scrollbar-thumb-slate-800"
+        )}
+      >
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

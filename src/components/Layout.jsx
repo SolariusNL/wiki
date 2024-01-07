@@ -22,38 +22,18 @@ const navigation = [
     collapsible: false,
   },
   {
-    title: "Policies",
-    links: [
-      { title: "Custom client policy", href: "/docs/apheon/custom-clients" },
-      {
-        title: "End user license agreement",
-        href: "/docs/apheon/eula",
-      },
-    ],
-    collapsible: true,
-    groupTitle: "Apheon",
-  },
-
-  {
     title: "Introduction",
     links: [{ title: "About Vortex", href: "/docs/vortex/about" }],
     collapsible: true,
     groupTitle: "Vortex",
   },
   {
-    title: "Advanced",
-    links: [
-      {
-        title: "Physics configuration",
-        href: "/docs/vortex/advanced-config/physics",
-      },
-    ],
-    collapsible: true,
-    groupTitle: "Vortex",
-  },
-  {
     title: "Studio",
     links: [
+      {
+        title: "Using Studio",
+        href: "/docs/vortex/using",
+      },
       {
         title: "Shared source",
         href: "/docs/vortex/shared-studio",
@@ -63,34 +43,23 @@ const navigation = [
     groupTitle: "Vortex",
   },
   {
-    title: "Errors",
-    links: [
-      {
-        title: "SYR-1001",
-        href: "/docs/apheon/error/1001",
-      },
-    ],
-    collapsible: true,
-    groupTitle: "Apheon",
-  },
-  {
     title: "Introduction",
     links: [{ title: "About Cosmic 2.0", href: "/docs/cosmic/2/about" }],
     collapsible: true,
     groupTitle: "Cosmic 2.0",
   },
   {
-    title: "API",
+    title: "Reference",
     links: [
-      { title: "Datastores", href: "/docs/cosmic/datastores" },
-      { title: "Secrets", href: "/docs/cosmic/secrets" },
-      { title: "CLI", href: "/docs/cosmic/cli" },
-      { title: "Events", href: "/docs/cosmic/events" },
-      { title: "Player", href: "/docs/cosmic/player" },
-      { title: "Environment", href: "/docs/cosmic/env" },
+      { title: "@fw/datastores", href: "/docs/cosmic/datastores" },
+      { title: "@fw/secrets", href: "/docs/cosmic/secrets" },
+      { title: "@fw/cli", href: "/docs/cosmic/cli" },
+      { title: "@fw/events", href: "/docs/cosmic/events" },
+      { title: "@fw/player", href: "/docs/cosmic/player" },
+      { title: "@fw/environment", href: "/docs/cosmic/env" },
     ],
     collapsible: true,
-    groupTitle: "Cosmic",
+    groupTitle: "Cosmic API",
   },
   {
     title: "Examples",
@@ -98,7 +67,7 @@ const navigation = [
       { title: "Gamepass handling", href: "/docs/cosmic/examples/gamepasses" },
     ],
     collapsible: true,
-    groupTitle: "Cosmic",
+    groupTitle: "Cosmic API",
   },
   {
     title: "Guides",
@@ -108,23 +77,7 @@ const navigation = [
       { title: "Import Conflicts", href: "/docs/cosmic/import-conflicts" },
     ],
     collapsible: true,
-    groupTitle: "Cosmic",
-  },
-  {
-    title: "Features",
-    links: [
-      { title: "Markdown editor", href: "/docs/features/markdown", beta: true },
-      { title: "Chat", href: "/docs/features/chat", beta: true },
-      { title: "Checklists", href: "/docs/features/checklists", beta: true },
-      { title: "Game updates", href: "/docs/features/game-updates" },
-      { title: "Code snippets", href: "/docs/features/code-snippets" },
-      { title: "Secrets", href: "/docs/features/secrets" },
-      { title: "Gamepasses", href: "/docs/features/gamepasses" },
-      { title: "Domains", href: "/docs/features/domains" },
-      { title: "Servers", href: "/docs/features/servers" },
-    ],
-    collapsible: true,
-    groupTitle: "Application",
+    groupTitle: "Cosmic API",
   },
   {
     title: "Self-hosting",
@@ -135,22 +88,7 @@ const navigation = [
       { title: "Configuration", href: "/docs/self-hosting/configuration" },
     ],
     collapsible: true,
-    groupTitle: "Application",
-  },
-  {
-    title: "Policies",
-    links: [
-      { title: "Privacy policy", href: "/docs/policies/privacy" },
-      { title: "Terms of service", href: "/docs/policies/terms" },
-      { title: "NFT policy", href: "/docs/policies/nfts" },
-      { title: "DMCA takedown policy", href: "/docs/policies/dmca-policy" },
-      { title: "Federation policy", href: "/docs/policies/federation-policy" },
-      {
-        title: "Soyaru anticheat EULA",
-        href: "/docs/policies/soyaru-eula",
-      },
-    ],
-    collapsible: true,
+    groupTitle: "Framework Server",
   },
 ];
 
@@ -199,10 +137,10 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
-          href="https://invent.solarius.me/Soodam.re/framework"
+          href="https://github.com/SolariusNL/framework"
           target="_blank"
           className="group"
-          aria-label="GitLab"
+          aria-label="GitHub"
         >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
@@ -287,7 +225,7 @@ export function Layout({ children, title, tableOfContents }) {
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
           <div className="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 dark:block" />
-          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5">
+          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-thumb-rounded-md dark:scrollbar-track-slate-900 dark:scrollbar-thumb-slate-800">
             <Navigation
               navigation={navigation}
               className="w-64 pr-8 xl:w-72 xl:pr-16"
