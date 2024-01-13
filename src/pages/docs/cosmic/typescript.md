@@ -41,4 +41,4 @@ Game.on("playerConnected", async (player: Types.Player) => { // (1)
 
 ### Linting
 
-Cosmic's source code is linted using [ESLint](https://eslint.org/). You can extend our configuration in the `.eslintrc.json` file in the root of your Cosmic server directory. Learn more about [configuring ESLint](https://eslint.org/docs/user-guide/configuring).
+Cosmic's source code is linted using [ESLint](https://eslint.org/). You can extend our default configuration in the `.eslintrc.json` file in the root of your Cosmic server directory. Learn more about [configuring ESLint](https://eslint.org/docs/user-guide/configuring).
