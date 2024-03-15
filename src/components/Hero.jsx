@@ -93,22 +93,21 @@ export function Hero() {
             />
             <div className="relative">
               <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                Empowering the next generation of games
+                 Build without limits
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Express your creativity and build without limits on Framework -
-                the ultimate alternative to proprietary platforms like Roblox.
+                Framework is a modern game development platform that makes it easy to build, deploy, and scale your first
+                game.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="https://framework.solarius.me" target="_blank">
                   Get started
                 </Button>
                 <Button
-                  href="https://github.com/SolariusNL/framework"
+                  href="/docs/first-game"
                   variant="secondary"
-                  target="_blank"
                 >
-                  View source
+                  Build your first game
                 </Button>
               </div>
             </div>

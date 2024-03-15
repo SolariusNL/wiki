@@ -16,47 +16,14 @@ const navigation = [
     title: "Introduction",
     links: [
       { title: "Getting started", href: "/" },
-      { title: "About Framework", href: "/docs/about" },
-      { title: "Branding", href: "/docs/branding" },
+      { title: "Build your first game", href: "/docs/first-game" },
     ],
     collapsible: false,
   },
   {
-    title: "Introduction",
-    links: [{ title: "About Vortex", href: "/docs/vortex/about" }],
-    collapsible: true,
-    groupTitle: "Vortex",
-  },
-  {
-    title: "Studio",
-    links: [
-      {
-        title: "Using Studio",
-        href: "/docs/vortex/using",
-      },
-      {
-        title: "Shared source",
-        href: "/docs/vortex/shared-studio",
-      },
-    ],
-    collapsible: true,
-    groupTitle: "Vortex",
-  },
-  {
-    title: "Introduction",
-    links: [{ title: "About Cosmic 2.0", href: "/docs/cosmic/2/about" }],
-    collapsible: true,
-    groupTitle: "Cosmic 2.0",
-  },
-  {
     title: "Reference",
     links: [
-      { title: "@fw/datastores", href: "/docs/cosmic/datastores" },
-      { title: "@fw/secrets", href: "/docs/cosmic/secrets" },
-      { title: "@fw/cli", href: "/docs/cosmic/cli" },
-      { title: "@fw/events", href: "/docs/cosmic/events" },
-      { title: "@fw/player", href: "/docs/cosmic/player" },
-      { title: "@fw/environment", href: "/docs/cosmic/env" },
+      { title: "Command line", href: "/docs/cosmic/reference/cli" },
     ],
     collapsible: true,
     groupTitle: "Cosmic API",
@@ -65,16 +32,6 @@ const navigation = [
     title: "Examples",
     links: [
       { title: "Gamepass handling", href: "/docs/cosmic/examples/gamepasses" },
-    ],
-    collapsible: true,
-    groupTitle: "Cosmic API",
-  },
-  {
-    title: "Guides",
-    links: [
-      { title: "Introduction", href: "/docs/cosmic/introduction" },
-      { title: "TypeScript", href: "/docs/cosmic/typescript" },
-      { title: "Import Conflicts", href: "/docs/cosmic/import-conflicts" },
     ],
     collapsible: true,
     groupTitle: "Cosmic API",

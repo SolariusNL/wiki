@@ -15,6 +15,10 @@ import { registerCommand } from "@fw/cli";
 
 ## `CLI.registerCommand`
 
+### Context
+
+Server. Cannot be used in the client.
+
 ### Definition
 
 ```ts

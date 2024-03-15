@@ -1,7 +1,7 @@
 ---
 title: Getting started
 pageTitle: Framework - Innovators of the future
-description: Framework is a free and open source Roblox alternative that empowers true creativity and expression.
+description: Framework is a free Roblox alternative that empowers true creativity and expression.
 ---
 
 Find out more about Framework game development and self-hosting.
@@ -62,20 +62,14 @@ sudo cp -R /Volumes/Framework\ Studio/Framework\ Studio.app /Applications # Copy
 
 ## What is Framework?
 
-Framework is a free (as in freedom and as in free beer), open-source, federated and decentralized Roblox alternative. We aim to provide a safe, secure, and fun environment for all users by providing a platform that is free of censorship and mass moderation.
+Framework is a free (as in freedom and as in free beer), powerful game platform. We aim to provide a safe, secure, and fun environment for all users by providing a platform that is free of censorship and mass moderation.
 
-Our target audience is people concerned about their privacy and security, and people who want to be able to express themselves freely without fear of being banned or censored.
+Our target audience is anyone who wants to create and play games, but we're especially focused on those who are tired of the limitations and censorship of other platforms. We believe that everyone should have the right to express themselves and create the games they want to create, without fear of being banned or censored.
 
 Framework provides many features that are not available on Roblox, such as:
+.
 
-- A federated network of servers, allowing you to connect to any server you want and reduces reliance on a single, corporate-owned server.
-- A decentralized moderation system, allowing you to moderate your own server and decide who gets banned and who doesn't that can be easily replicated across other servers.
-- The ability to self-host your own server, enabling many more possibilities for customization, control, and even performance.
 - A community-first approach, where the community is in control of the direction of the project and the features that are added rather than investors or numbers on spreadsheets.
 - A focus on privacy and security, with end-to-end encryption implemented in many places and a focus on making sure that your data is safe and secure from prying eyes. (We're GDPR and CCPA compliant)
 - A focus on user experience, with a clean and simple interface that is easy to use and understand.
 - ...and many, many more!
-
-## Contributing
-
-Framework is fully open-source, and we welcome contributions from the community. If you'd like to contribute, head over to our [GitHub repository](https://github.com/SolariusNL/framework) and submit a pull request. We'll review it and get back to you as soon as possible.

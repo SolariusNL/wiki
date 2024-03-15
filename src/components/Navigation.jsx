@@ -74,7 +74,8 @@ export function Navigation({ navigation, className }) {
                           fill="currentColor"
                           className={clsx(
                             "h-5 w-5 text-slate-500",
-                            expandedSections.includes(
+                            expandedSections
+                            .includes(
                               groupTitle
                                 ? `${groupTitle}-${section.title}`
                                 : section.title
@@ -106,6 +107,8 @@ export function Navigation({ navigation, className }) {
                         : section.title
                     )
                   }
+                  transitionTime={250}
+                  easing="ease-in-out"
                   onOpening={() =>
                     setExpandedSections((expandedSections) => [
                       ...expandedSections,
@@ -117,12 +120,14 @@ export function Navigation({ navigation, className }) {
                   onClosing={() =>
                     setExpandedSections((expandedSections) =>
                       expandedSections.filter(
-                        (title) => title !== section.title
+                        (expandedSection) =>
+                          expandedSection !==
+                          (groupTitle
+                            ? `${groupTitle}-${section.title}`
+                            : section.title)
                       )
                     )
                   }
-                  transitionTime={250}
-                  easing="ease-in-out"
                 >
                   <ul
                     role="list"
