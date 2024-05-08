@@ -24,16 +24,18 @@ const navigation = [
   {
     title: "Game",
     links: [
-      { title: "Backpack", href: "" },
+      { title: "Backpack", href: "/api-docs/game/backpack" },
       { title: "Environment", href: "" },
       { title: "Game", href: "" },
-      { title: "Hidden", href: "" },
+      { title: "Hidden", href: "/api-docs/game/hidden" },
       { title: "Lighting", href: "" },
       { title: "Player", href: "" },
       { title: "PlayerDefaults", href: "" },
       { title: "Players", href: "" },
       { title: "ScriptService", href: "" },
       { title: "BackendScriptService", href: "" },
+      { title: "Collider", href: "" },
+      { title: "Actor", href: "" },
     ],
     collapsible: true,
     groupTitle: "Cosmic API",
@@ -108,8 +110,8 @@ const navigation = [
   {
     title: "System",
     links: [
-      { title: "DynamicInstance", href: "" },
-      { title: "Instance", href: "" },
+      { title: "DynamicInstance", href: "/api-docs/system/dynamic-instance" },
+      { title: "Instance", href: "/api-docs/system/instance" },
     ],
     collapsible: true,
     groupTitle: "Cosmic API",
